@@ -1,3 +1,5 @@
+# Skvela nalada
+
 dna_base_comp = function(base){
   bases = c("A", "C", "G", "T")
   names(bases) = c("T", "G", "C", "A")
