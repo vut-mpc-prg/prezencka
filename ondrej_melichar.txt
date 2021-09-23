@@ -1,0 +1,15 @@
+dna_base_comp = function(base){
+  bases = c("A", "C", "G", "T")
+  names(bases) = c("T", "G", "C", "A")
+  return(bases[base])
+}
+
+dna_base_to_rna = function(base){
+  bases = c("A", "C", "G", "U")
+  names(bases) = c("T", "G", "C", "A")
+  return(bases[base])
+}
+
+my_base = "A"
+comp_base = print(dna_base_comp(my_base))
+rna_base = print(dna_base_to_rna(my_base))
